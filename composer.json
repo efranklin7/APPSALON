@@ -1,0 +1,23 @@
+{
+  "name": "franklinrodriguez/appsalon_php",
+  "description": "Proyecto PHP 8, MVC, SQL, SASS, Gulp",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "MVC\\": "./",
+      "Controllers\\": "./controllers",
+      "Model\\": "./models",
+      "Classes\\": "./classes"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ernesto Franklin Rodriguez Gomez",
+      "email": "ing.efranklin7@gmail.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^6.5",
+    "vlucas/phpdotenv": "^5.4"
+  }
+}
